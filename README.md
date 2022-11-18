@@ -1,6 +1,27 @@
-# Getting Started with Create React App
+# Card_windbnb_desafio_dev
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Motivação:
+
+Aplicação desenvolvida para testar os meu conhecimento em ReactJs e Css
+
+- Resumo:
+
+O layout da página está totalmente responsivo para os diversos tamanhos de telas dos dispositivos dos usuários.
+
+Nesse desafio pessoal, eu testei os meus aprendizados em Reacts e css para verificar se conseguiria finalizar o desafio, deixando o site semelhante com o figma da devchallenges.
+
+![image](https://user-images.githubusercontent.com/104912054/202693865-eede3576-b532-4858-8151-d575787d26db.png)
+
+![image](https://user-images.githubusercontent.com/104912054/202693892-89a49e5b-3e22-4e2a-bf55-63441dc9359b.png)
+
+![image](https://user-images.githubusercontent.com/104912054/202693926-da31455b-f3a0-4613-93a1-935116b19f49.png)
+
+![image](https://user-images.githubusercontent.com/104912054/202693952-fa9d31de-6279-4190-9d50-6b3d79afff70.png)
+
+![image](https://user-images.githubusercontent.com/104912054/202694174-ec718308-a2a2-4483-829d-f813f1021d95.png)
+
+![image](https://user-images.githubusercontent.com/104912054/202694217-d0353139-6686-4eae-aab3-dbd82822bb61.png)
+
 
 ## Available Scripts
 
