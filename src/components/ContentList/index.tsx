@@ -8,13 +8,13 @@ interface ContentListProps {
     legTitle?: string;
 }
 
-export function ContentList( { img, type, tagAv, leg, legTitle }: ContentListProps ) {
+export function ContentList({ img, type, tagAv, leg, legTitle }: ContentListProps) {
 
-    if( type === 'superhost' ) {
+    if (type === 'superhost') {
         return (
             <>
                 <ImgMain>
-                    <img src={img} />
+                    <img src={img} alt="" />
                 </ImgMain>
                 <Legend1SuperHost>
                     <div>
@@ -27,7 +27,7 @@ export function ContentList( { img, type, tagAv, leg, legTitle }: ContentListPro
                     </div>
                     <AvaliationSuperHost>
                         <IconAv className="material-symbols-outlined">
-                                grade
+                            grade
                         </IconAv>
                         <TagAvaliation>{tagAv}</TagAvaliation>
                     </AvaliationSuperHost>
@@ -39,7 +39,7 @@ export function ContentList( { img, type, tagAv, leg, legTitle }: ContentListPro
         return (
             <div>
                 <ImgMain>
-                    <img src={img} />
+                    <img src={img} alt="" />
                 </ImgMain>
                 <Legenda1Commum>
                     <LegendCommum>{legTitle}</LegendCommum>
