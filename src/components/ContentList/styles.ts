@@ -33,6 +33,7 @@ export const Legenda2Commum = styled.div`
 export const AvaliationCommum = styled.div`
   display: flex;
   align-items: center;
+  justify-content: center;
 `;
 
 export const LegendCommum = styled.div`
@@ -90,7 +91,7 @@ export const AvaliationSuperHost = styled.div`
 
 export const TagAvaliation = styled.div`
   color: var(--total-stays);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 17px;
   letter-spacing: 0em;
@@ -111,4 +112,11 @@ export const Legenda2SuperHost = styled.div`
 
 export const IconAv = styled.div`
   color: var(--logo);
+  font-size: 22px;
+`;
+
+export const Icon = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;

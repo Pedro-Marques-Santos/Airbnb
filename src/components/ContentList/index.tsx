@@ -12,6 +12,7 @@ import {
   LegendaTitleSuperHost,
   Legenda2SuperHost,
   Container,
+  Icon,
 } from "./styles";
 
 interface ContentListProps {
@@ -41,7 +42,9 @@ export function ContentList({
             <LegendaTitleSuperHost>{legTitle}</LegendaTitleSuperHost>
           </div>
           <AvaliationSuperHost>
-            <IconAv className="material-symbols-outlined">grade</IconAv>
+            <Icon>
+              <IconAv className="material-symbols-outlined">grade</IconAv>
+            </Icon>
             <TagAvaliation>{tagAv}</TagAvaliation>
           </AvaliationSuperHost>
         </Legend1SuperHost>
@@ -57,7 +60,9 @@ export function ContentList({
         <Legenda1Commum>
           <LegendCommum>{legTitle}</LegendCommum>
           <AvaliationCommum>
-            <IconAv className="material-symbols-outlined">grade</IconAv>
+            <Icon>
+              <IconAv className="material-symbols-outlined">grade</IconAv>
+            </Icon>
             <TagAvaliation>{tagAv}</TagAvaliation>
           </AvaliationCommum>
         </Legenda1Commum>

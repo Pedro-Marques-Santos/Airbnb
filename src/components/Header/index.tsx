@@ -11,7 +11,7 @@ export function Header({ openModalSearch, closeModalSearch }: HeaderProps) {
   return (
     <Container>
       <div className="logo">
-        <img src={logo} alt="" />
+        <img src={logo} alt="logo" />
       </div>
       <Search
         openModalSearch={openModalSearch}

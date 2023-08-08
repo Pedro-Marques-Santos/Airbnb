@@ -6,6 +6,7 @@ import img2 from "../../assets/img2.png";
 import img3 from "../../assets/img3.png";
 import img4 from "../../assets/img4.png";
 import img5 from "../../assets/img5.png";
+import img6 from "../../assets/img6.png";
 
 export function List() {
   return (
@@ -57,7 +58,7 @@ export function List() {
       </ItemMain>
       <ItemMain>
         <ContentList
-          img={img2}
+          img={img6}
           type="commum"
           tagAv="4.54"
           leg="Modern apartment close to nature"
