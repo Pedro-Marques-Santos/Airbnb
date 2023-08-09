@@ -38,7 +38,9 @@ export function ContentList({
         </ImgMain>
         <Legend1SuperHost>
           <div>
-            <ButtonSuperHost>SUPER HOST</ButtonSuperHost>
+            <ButtonSuperHost>
+              <h6>SUPER HOST</h6>
+            </ButtonSuperHost>
             <LegendaTitleSuperHost>{legTitle}</LegendaTitleSuperHost>
           </div>
           <AvaliationSuperHost>

@@ -17,10 +17,5 @@ export const Container = styled.div`
     margin-top: 22px;
     width: 100%;
     flex-direction: column;
-
-    .logo {
-      width: 100%;
-      margin-bottom: 39px;
-    }
   }
 `;

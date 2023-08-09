@@ -17,7 +17,11 @@ import {
 
 import { BsFillArrowDownCircleFill } from "react-icons/bs";
 
-export function CardCheckin() {
+interface ICardCheckin {
+  price: number;
+}
+
+export function CardCheckin({ price }: ICardCheckin) {
   const [selectedValue, setSelectedValue] = useState<string | number>("");
   const [isSelectOpen, setIsSelectOpen] = useState(false);
 
@@ -32,7 +36,11 @@ export function CardCheckin() {
     <ContentContainer>
       <Container>
         <Price>
-          $150<span>noite</span>
+          {price.toLocaleString("pt-BR", {
+            style: "currency",
+            currency: "BRL",
+          })}
+          <span>noite</span>
         </Price>
         <Table>
           <TableEntry>

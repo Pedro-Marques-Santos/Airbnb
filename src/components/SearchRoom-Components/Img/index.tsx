@@ -1,14 +1,18 @@
 import { Container } from "./styles";
 
-import img1 from "../../../assets/img2.png";
+interface IImg {
+  title: string;
+  img: string;
+}
 
-export function Img() {
+export function Img({ title, img }: IImg) {
   return (
     <Container>
       <h1>
-        Cozy, peaceful and private room with<span>.</span>
+        {title}
+        <span>.</span>
       </h1>
-      <img src={img1} alt="Room" />
+      <img src={img} alt="Room" />
     </Container>
   );
 }

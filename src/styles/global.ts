@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -44,7 +44,7 @@ export const GlobalStyle = createGlobalStyle`
         left: 0;
         display: flex;
         justify-content: center;
-    }
+    } 
 
     .react-modal-content {
         width: 100%;
@@ -68,4 +68,11 @@ export const GlobalStyle = createGlobalStyle`
         border: 0;
         background: transparent;
     }
-`
+
+    .logo {
+      cursor: pointer;
+      @media (max-width: 580px) {
+    margin-bottom: 20px;
+  }
+    }
+`;

@@ -2,16 +2,33 @@ import { IntroductionMyRoom } from "../IntroductionMyRoom";
 import { LargText } from "../IntroductionMyRoom/styles";
 import { Container } from "./styles";
 
-export function AboutRoom() {
+interface IAboutRoom {
+  largtext: string;
+  introduction: string;
+  peoploimg: string;
+  bedrooms: number;
+  beds: number;
+  bathrooms: number;
+}
+
+export function AboutRoom({
+  largtext,
+  introduction,
+  peoploimg,
+  bedrooms,
+  beds,
+  bathrooms,
+}: IAboutRoom) {
   return (
     <Container>
-      <IntroductionMyRoom />
-      <LargText>
-        Maravilhosa casa em frente ao mar. Praia de Maresias. A casa conta com
-        vários ambientes aconchegantes, amplas salas, área de jogos, piscina,
-        área gourmet com churrasqueira, cozinha totalmente equipada. Uma casa
-        com total interação e vista para o mar para lazer completo da família.
-      </LargText>
+      <IntroductionMyRoom
+        introduction={introduction}
+        peoploimg={peoploimg}
+        bedrooms={bedrooms}
+        beds={beds}
+        bathrooms={bathrooms}
+      />
+      <LargText>{largtext}</LargText>
     </Container>
   );
 }

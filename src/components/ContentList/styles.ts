@@ -60,17 +60,19 @@ export const Legend1SuperHost = styled.div`
 export const ButtonSuperHost = styled.div`
   height: 28px;
   width: 100px;
-  padding-left: 9px;
   border-radius: 12px;
   display: flex;
   align-items: center;
-  font-family: "Montserrat";
-  font-size: 12px;
-  font-weight: 700;
-  text-align: center;
-  color: var(--button-foto);
   border: 1px solid var(--button-foto);
   margin-right: 5px;
+  h6 {
+    font-weight: 700;
+    font-size: 11px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Montserrat";
+    color: var(--button-foto);
+  }
 `;
 
 export const LegendaTitleSuperHost = styled.div`

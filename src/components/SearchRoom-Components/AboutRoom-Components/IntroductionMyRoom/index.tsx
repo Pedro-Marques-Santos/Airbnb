@@ -1,22 +1,34 @@
 import { Container, Img, Introduction, Space } from "./styles";
 
-import img from "../../../../assets/person1.png";
+interface IIntroductionMyRoom {
+  introduction: string;
+  peoploimg: string;
+  bedrooms: number;
+  beds: number;
+  bathrooms: number;
+}
 
-export function IntroductionMyRoom() {
+export function IntroductionMyRoom({
+  introduction,
+  peoploimg,
+  bedrooms,
+  beds,
+  bathrooms,
+}: IIntroductionMyRoom) {
   return (
     <Container>
       <Introduction>
-        <h1>Espaço inteiro: Casa (hospedado por Hian)</h1>
+        <h1>{introduction}</h1>
         <h2>
-          <span>5 quartos</span>
+          <span>{bedrooms} bedrooms</span>
           <Space>-</Space>
-          <span>10 camas</span>
+          <span>{beds} beds</span>
           <Space>-</Space>
-          <span>7 banheiros</span>
+          <span>{bathrooms} bathrooms</span>
         </h2>
       </Introduction>
       <Img>
-        <img src={img} alt="person" />
+        <img src={peoploimg} alt="person" />
       </Img>
     </Container>
   );

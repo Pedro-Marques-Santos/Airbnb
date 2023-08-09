@@ -9,6 +9,7 @@ export const Container = styled.div`
   img {
     max-width: 600px;
     max-height: 400px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   }
 
   h1 {
